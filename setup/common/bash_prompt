@@ -1,0 +1,2 @@
+
+PS1='\n\[`tput setaf 13`\][\t]\[`tput sgr0`\] \[`[ $? = 0 ] && X=2 || X=1; tput setaf $X`\]\u@\H:\[`tput setaf 11`\]$PWD\[`tput sgr0`\]\n\$ '

@@ -1,0 +1,13 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.colorTheme": "Default Dark Modern",
+    "git.suggestSmartCommit": false,
+    "git.confirmSync": false,
+    "files.insertFinalNewline": true,
+    "evenBetterToml.formatter.trailingNewline": true,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "explorer.confirmDelete": false,
+    "editor.wordWrap": "on",
+    "telemetry.telemetryLevel": "off"
+}

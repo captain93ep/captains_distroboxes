@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Steam
+GenericName=Distrobox Steam
+Comment=Start steam in steam container.
+Categories=System;Utility
+Exec=/usr/bin/distrobox enter steam -- /usr/bin/bash -c "~/start_steam.sh"
+Icon=X_ICON_PATH_X
+Keywords=distrobox;steam;
+NoDisplay=false
+Terminal=false
+TryExec=/usr/bin/distrobox
+Type=Application
+X-Desktop-File-Install-Version=0.26

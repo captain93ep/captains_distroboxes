@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=teamspeak5
+GenericName=Distrobox teamspeak5
+Comment=Start teamspeak5 in teamspeak5 container.
+Categories=Multimedia
+Exec=/usr/bin/distrobox enter teamspeak5 -- /usr/bin/bash -c "~/start_teamspeak5.sh"
+Icon=X_ICON_PATH_X
+Keywords=distrobox;team;speak;ts;5;teamspeak
+NoDisplay=false
+Terminal=false
+TryExec=/usr/bin/distrobox
+Type=Application
+X-Desktop-File-Install-Version=0.26
