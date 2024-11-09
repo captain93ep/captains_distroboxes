@@ -6,7 +6,7 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 REPO_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" && cd ../.. &> /dev/null && pwd )
 
 # create the rust box
-distrobox create teamspeak5 --name teamspeak5 --hostname teamspeak5 --nvidia --image fedora:40 --home ${REPO_DIR}/homedirs/teamspeak5_home --additional-flags "--env GTK_THEME=Adwaita:dark"
+distrobox create teamspeak5 --name teamspeak5 --hostname teamspeak5 --nvidia --image fedora:41 --home ${REPO_DIR}/homedirs/teamspeak5_home --additional-flags "--env GTK_THEME=Adwaita:dark"
 # enter and init the rust box
 distrobox enter teamspeak5 -- bash -c ${SCRIPT_DIR}/init_teamspeak5_box.sh
 

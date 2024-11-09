@@ -6,7 +6,7 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 REPO_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" && cd ../.. &> /dev/null && pwd )
 
 # create the steam box
-distrobox create steam --name steam --hostname steam --nvidia --image fedora:40 --home ${REPO_DIR}/homedirs/steam_home
+distrobox create steam --name steam --hostname steam --nvidia --image fedora:41 --home ${REPO_DIR}/homedirs/steam_home
 # enter and init the steam box
 distrobox enter steam -- bash -c ${SCRIPT_DIR}/init_steam_box.sh
 
